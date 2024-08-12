@@ -1,8 +1,8 @@
 // pages/index.tsx
-import { GetServerSideProps } from 'next';
-import ProductCard from './component/ProductCard';
+
+import ProductCard from './component/product/ProductCard';
 import { fetchProducts } from './utils/fetchProducts';
-import ProductSlider from './component/ProductSlider';
+import ProductSlider from './component/product/ProductSlider';
 import { Product } from './types';
 import { images } from './data/mockData';
 import HeroSection from './component/Hero';
