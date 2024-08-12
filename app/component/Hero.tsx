@@ -11,8 +11,8 @@ const HeroSection = () => {
         <Image src='https://images.pexels.com/photos/1670766/pexels-photo-1670766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' fill className='object-cover object-center opacity-[60%]' alt='White sneakers'/>
         <div className='absolute max-w-[30%] p-[16px] top-[20%] left-10 '>
         <p className='font-bold text-black text-[32px] '>Step out to see our physical stores near you</p>
-        <div className='flex items-center justify-center w-[90px] h-[90px] rounded-[100px] bg-[#23A6F0] mt-[8px]'>
-        <FaArrowRight style={{width:'50px', height:'40px'}}/>
+        <div className='flex items-center justify-center w-[80px] h-[80px] rounded-[100px] bg-[#23A6F0] mt-[8px] cursor-pointer'>
+        <FaArrowRight style={{width:'40px', height:'40px'}}/>
         </div>
         
         </div>

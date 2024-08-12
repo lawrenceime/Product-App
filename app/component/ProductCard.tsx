@@ -10,8 +10,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <div className="product-title">{product.name}</div>
         <p className="product-description">{product.description}</p>
       </div>
-      <div className="px-6 pt-4 pb-2">
+      <div className="flex justify-between px-6 pt-4 pb-2">
         <span className="product-price">${product.price}</span>
+        <button type='button' className='text-[#23A6F0]'>Add to Cart</button>
       </div>
     </div>
   );
